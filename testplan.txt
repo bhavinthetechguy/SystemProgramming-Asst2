@@ -1,0 +1,65 @@
+Testplan
+
+Test 1: too many arguments
+Expected output: ERROR
+Actual output: ERROR
+
+
+Test 2: Too less arguments
+Expected output: ERROR
+Actual Output: ERROR
+
+
+Test 3: File/directory not existing
+Expected Output: ERROR
+Actual Output: ERROR
+
+
+Test 4: Reading an empty file
+Expected Output: empty file error
+Actual output: empty file error
+
+
+Test 5: reading a file
+Expected output: 
+<list> little
+little.txt 2
+<list> pony
+little.txt 1
+
+Actual output: 
+<list> little
+little.txt 2
+<list> pony
+little.txt 1
+
+
+Test 6: parsing through a directory 
+Expected output:
+<list> a
+boo.txt 1 baa.txt 1
+<list> baa
+baa.txt 1
+<list> boo
+boo.txt 1
+<list> cat
+baa.txt 1
+<list> dog
+boo.txt 1
+<list> name
+boo.txt 2 baa.txt 1
+
+Actual output:
+<list> a
+boo.txt 1 baa.txt 1
+<list> baa
+baa.txt 1
+<list> boo
+boo.txt 1
+<list> cat
+baa.txt 1
+<list> dog
+boo.txt 1
+<list> name
+boo.txt 2 baa.txt 1
+
